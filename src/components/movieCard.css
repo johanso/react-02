@@ -1,0 +1,32 @@
+.card {
+   overflow: hidden;
+}
+
+.card:hover {
+   cursor: pointer;
+}
+
+.card .card-body {
+   opacity: 0;
+   position: absolute;
+   z-index: 1;
+   bottom: -65px;
+   width: 100%;
+   background: rgba(10, 0, 0, 0.78);
+   transition: all .1s ease-in;
+}
+
+.card:hover .card-body {
+   opacity: 1;
+   bottom: 0;
+}
+
+.card-text {
+   display: flex;
+   flex-direction: column;
+}
+
+.card-text .title {
+   font-weight: 700;
+   font-size: 1.1rem;
+}

@@ -1,0 +1,12 @@
+.actor {
+    display: flex;
+}
+.actorName {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: .2rem;
+}
+.actorNameMovie {
+    font-weight: 300;
+    font-style: italic;
+}
